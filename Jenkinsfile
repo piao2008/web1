@@ -8,7 +8,7 @@ pipeline{
         stage("install dependency"){
             steps{
                 echo "=======start install dependency====="
-                bat 'npm install --registry=https://registry.npmmirror.com'
+                bat 'npm install'
             }
         }
         stage("exeute package"){

@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1>Jenkins自动化部署</h1>
+    <h1>Jenkins自动化部署-流水线</h1>
     <h1>Hello world 持续集成持续部署111A11</h1>
     <h1>Hello world 持续集成持续部署222B22</h1>
     <h1>Hello world 持续集成持续部署333C33</h1>
