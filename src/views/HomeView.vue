@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <h1>Hello world 持续集成持续部署</h1>
     <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
