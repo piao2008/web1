@@ -1,8 +1,8 @@
 <template>
   <div class="home">
-    <h1>Hello world 持续集成持续部署111A</h1>
-    <h1>Hello world 持续集成持续部署222B</h1>
-    <h1>Hello world 持续集成持续部署333C</h1>
+    <h1>Hello world 持续集成持续部署111A11</h1>
+    <h1>Hello world 持续集成持续部署222B22</h1>
+    <h1>Hello world 持续集成持续部署333C33</h1>
     <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
