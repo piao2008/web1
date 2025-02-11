@@ -1,22 +1,22 @@
 pipeline{
     agent any
     stages{
-        stage("install denpendency"){
+        stage("install dependency"){
             steps{
                 echo "=======安装依赖====="
                 bat 'npm install --registry=https://registry.npmmirror.com'
             }
         }
-        stage("install denpendency"){
+        stage("exeute package"){
                 steps{
-                  echo "=======执行打包====="
+                 echo "=======执行打包====="
                  bat 'npm run build'
                 }
             }
-          stage("install denpendency"){
+          stage("copy files"){
                steps{
                echo "=======复制打包资源====="
-               bat 'xcopy .\dist\* D:\nginx-1.20.2\html /Y /Q /s /e'
+               bat 'xcopy .\\dist\\* D:\\nginx-1.20.2\\html /Y /Q /s /e'
                }
             }
           stage("project deploy finish!"){
