@@ -5,7 +5,12 @@ pipeline{
                 LC_ALL = 'zh_CN.UTF-8'
             }
     stages{
-
+        stage("install dependency"){
+            steps{
+                echo "=======start install dependency====="
+                bat 'npm install'
+            }
+        }
         stage("exeute package"){
                 steps{
                  echo "=======start exeute package====="
